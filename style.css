@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Fugaz+One&family=Heebo:wght@300&family=Inter:wght@200;300;400;500;700&family=Josefin+Sans:wght@300;700&family=Karla:wght@400;700&family=Lora:ital@0;1&family=Montserrat:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,500&family=Space+Mono:wght@700&display=swap');
+
+/* RESET */
+
+html {
+    box-sizing: border-box;
+
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 239, 246, 1);
+}
+
+/* BOX CONTAINER */
+
+#card {
+    width: 50vw;
+    height: 60vh;
+    border-radius: 5px;
+    margin-top: 150px;
+    box-shadow:  -6px 10px 50px 1px rgba(185, 181, 181, 0.75);
+    
+}
+
+/* TOP SECTION */
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(179, 176, 176);
+    font-size: 27px;
+}
+
+#top-section h2 {
+    color: #4abebdff;
+}
+
+#top-section h3 {
+    color: rgba(206, 226, 108, 1);
+}
+
+/* BOTTOM SECTION */
+
+#bottom-section {
+    width: 100%;
+    height: 55%;
+   
+}
+
+#bottom-left-section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+   
+    vertical-align: top;
+    background-color: #2bb3b1ff;
+    padding: 40px;
+    font-family: inherit;
+}
+
+#bottom-left-section h4 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+#price {
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+#price-fq, #price {
+    display: inline-block;
+}
+
+#price-fq {
+    font-size: 20px;
+    position: relative;
+    top: -9px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#price-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#bottom-left-section p {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+button {
+    color: white;
+    background-color: #cee26cff;
+    border: none;
+    padding: 25px;
+    width: 100%;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -6px 10px 50px 1px rgba(25, 24, 24, 0.75);
+    
+}
+button:hover {
+    color: #262919;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+#bottom-right-section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    
+    vertical-align: top;
+    background-color: rgba(74, 190, 189, 1);
+    padding: 40px;
+}
+
+#bottom-right-section h4{
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+#bottom-right-section ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: inherit;
+    font-size: 25px;
+}
+ 
