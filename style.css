@@ -28,8 +28,8 @@ body {
 /* BOX CONTAINER */
 
 #card {
-    width: 50vw;
-    height: 60vh;
+    width: 1300px;
+    height: 950px;
     border-radius: 5px;
     margin-top: 150px;
     box-shadow:  -6px 10px 50px 1px rgba(185, 181, 181, 0.75);
